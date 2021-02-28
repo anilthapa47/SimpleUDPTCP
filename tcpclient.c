@@ -42,6 +42,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 
 int main (int argc, char *argv[]) {
+    printf("Now i am Boss\n");
 
     int sockfd, rc, i, serverPort, nBytes;
     struct sockaddr_in localAddr, servAddr;
